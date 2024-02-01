@@ -3,59 +3,67 @@
 @tailwind utilities;
 
 .form {
-   
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-left: 40px;
-    max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 40px;
+  max-width: 600px;
 }
 
 .form label {
-    width: 64px;
-    margin-right: 20px;
-    font-weight: bold;
+  width: 64px;
+  margin-right: 20px;
+  font-weight: bold;
 }
 
-.form input, select {
-    width: 240px;
-    height: 36px;
-    padding: 10px;
-    border: 1px solid grey;
-    border-radius: 12px;
-    background-color: #c5c4c4;
-
+.form input,
+select {
+  width: 240px;
+  height: 36px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 12px;
+  background-color: #c5c4c4;
 }
 
 .form select {
-    padding: 0;
-    color: grey;
+  padding: 0;
+  color: grey;
 }
 
-
-
 .form #favorite {
-    width: 32px;
-    height: 32px;
-    background: grey;
-    color: red;
-    border: none;
+  width: 32px;
+  height: 32px;
+  background: grey;
+  color: red;
+  border: none;
 }
 
 .form div {
-    display: flex;
-    justify-content: start;
-    align-items: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .form div p {
-    color: rgb(182, 29, 29);
-    font-weight: bold;
-    font-size: 12px;
+  color: rgb(182, 29, 29);
+  font-weight: bold;
+  font-size: 12px;
 }
 
-.form #gender {}
+.form #gender {
+}
 .form button {
-    transition: ease-in .4s;
-    align-self: center;
+  transition: ease-in 0.4s;
+  align-self: center;
+}
+
+.sidebar li {
+  margin-bottom: 2rem;
+}
+
+.sidebar li:hover {
+  color: grey;
+  cursor: pointer;
+  transition: 0.4s;
 }
